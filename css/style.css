@@ -1,0 +1,175 @@
+body {
+    background-color:#15232f ;
+    font-family: 'Arial';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    border-radius: 5px;
+    margin: 1%;
+    background-color: #434d58;
+}
+html{
+    scroll-behavior: smooth;
+}
+b,h4{
+    color: #9bcefa;
+    cursor:default;
+}
+h1{
+    color:whitesmoke
+}
+p{
+    cursor:default;
+}
+#nav{
+    background-color: #434d58;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1%;
+}
+.cont{
+    background-color:#2b3843 ;
+    border-radius: 5px;
+    margin: 1%;
+}
+#works a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+    border-radius: 5px;
+    font-size: 14px;  
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+#works a:hover{
+    background-color: #434d58;
+    padding: 12px;
+    margin: 10px;
+    font-size: 15px;
+    border-bottom: 5px solid white;
+}
+#works a:active{
+    background-image: linear-gradient(to top,#434d58 ,#2b3843);
+    padding: 12px;
+    margin: 10px;
+    font-size: 15px;
+    color: whitesmoke;
+    border: 2px solid white;
+}
+#dp{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: inline;
+    margin: 10px;
+    transition-duration: 0.2s
+}
+#dp:hover{
+    border:3px solid #8e959c;
+}
+#dp:active{
+    border:3px solid white;
+}
+#icon{
+    margin: auto;
+}
+#icon img{
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+    display: inline;
+    transition-duration: 0.1s
+}
+#icon a:hover img{
+    height: 45px;
+    width: 45px;
+    margin: 1.5px;
+}
+#about{
+    text-align:justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.6em;
+}
+#download-button{
+    font-weight: bolder;
+    border-radius: 5px;
+    color: #9bcefa;
+    font-family: 'Arial';
+    text-decoration: none;
+    padding: 8px;
+    border:2px solid #9bcefa;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition-duration: 0.2s
+}
+#cv{
+   
+    border-radius: 5px;
+    margin: 1%;
+}
+#download-button:hover{
+    background:#9bcefa;
+    color:#2b3843;
+}
+#download-button:active{
+    border:2px solid #9bcefa;
+    color:#9bcefa;
+    background-color: #364E66;
+}
+.pic{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    
+    float:start;
+}
+table{
+    text-align: start;
+    margin: auto;
+}
+#projects table{
+    text-align: start;
+    margin-left:15%;
+    margin-right: 10%;
+}
+#ch{
+    font-weight: bolder;
+}
+#cc{
+    font-style: italic;
+}
+ul{
+ display: block;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    margin: 5px;
+    transition-duration: 0.1s
+
+}
+footer a:hover{
+    color:lightgray;
+    
+}
+footer p{
+    margin-top:3%;
+}
+footer a:active{
+    color:white;
+    text-decoration: underline;
+    
+}
